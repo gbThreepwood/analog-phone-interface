@@ -1646,6 +1646,126 @@
 				)
 			)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:-12V"
 			(power)
 			(pin_numbers hide)
@@ -1934,6 +2054,102 @@
 				)
 			)
 		)
+		(symbol "power:GND1"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND1"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND1_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 232.41 25.4)
@@ -1987,16 +2203,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 27.94) (xy 60.96 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04f60032-78c7-43eb-a343-e6bc69af9556")
-	)
-	(wire
-		(pts
 			(xy 259.08 40.64) (xy 259.08 38.1)
 		)
 		(stroke
@@ -2027,13 +2233,53 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 35.56) (xy 53.34 38.1)
+			(xy 50.8 35.56) (xy 83.82 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "146b9756-c329-4264-b50b-1989160e2d9b")
+		(uuid "11a8eb07-1e13-4b7d-9dca-18f1892fca3b")
+	)
+	(wire
+		(pts
+			(xy 50.8 38.1) (xy 68.58 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ae6cda0-8eb0-47ec-8196-9928eae97481")
+	)
+	(wire
+		(pts
+			(xy 50.8 33.02) (xy 74.93 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2af64e8e-4313-40f2-90fb-c439d2be9606")
+	)
+	(wire
+		(pts
+			(xy 172.72 57.15) (xy 181.61 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31192e74-09bb-4c3f-9f6f-0034a6556665")
+	)
+	(wire
+		(pts
+			(xy 68.58 38.1) (xy 68.58 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "312a0645-a94d-44be-9bdf-f775ced5da89")
 	)
 	(wire
 		(pts
@@ -2047,13 +2293,33 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 27.94) (xy 60.96 22.86)
+			(xy 83.82 22.86) (xy 83.82 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "39a89f2f-8e85-4433-92f9-52efdee2bef2")
+	)
+	(wire
+		(pts
+			(xy 50.8 30.48) (xy 74.93 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a5cee96-2d41-4485-a1e0-ad76d11e7064")
+	)
+	(wire
+		(pts
+			(xy 191.77 110.49) (xy 191.77 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41949f89-94dc-4f91-9abb-d30fbfd25cf2")
 	)
 	(wire
 		(pts
@@ -2077,13 +2343,23 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 30.48) (xy 68.58 30.48)
+			(xy 74.93 33.02) (xy 74.93 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61f42a05-b116-4a6b-9abb-0c3e1d500b24")
+		(uuid "688165d8-8b75-40c7-9faa-5a7ac203886a")
+	)
+	(wire
+		(pts
+			(xy 50.8 27.94) (xy 68.58 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a815c32-3e11-464a-ab18-edabde8b4924")
 	)
 	(wire
 		(pts
@@ -2127,7 +2403,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 22.86) (xy 68.58 30.48)
+			(xy 68.58 22.86) (xy 68.58 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2137,17 +2413,17 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 35.56) (xy 53.34 35.56)
+			(xy 191.77 60.96) (xy 172.72 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ca24df1-3236-4d67-b016-fa1585944dea")
+		(uuid "7ff6a3c1-4428-43b5-86c2-285527897a9a")
 	)
 	(wire
 		(pts
-			(xy 76.2 22.86) (xy 76.2 33.02)
+			(xy 74.93 22.86) (xy 74.93 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2177,16 +2453,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 33.02) (xy 76.2 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a78e91e-5d2b-4b65-ade3-1ac6c7f85869")
-	)
-	(wire
-		(pts
 			(xy 53.34 116.84) (xy 53.34 119.38)
 		)
 		(stroke
@@ -2197,6 +2463,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 25.4) (xy 62.23 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fc92eac-2a64-4ced-8525-860abfb61d1f")
+	)
+	(wire
+		(pts
 			(xy 226.06 27.94) (xy 229.87 27.94)
 		)
 		(stroke
@@ -2204,6 +2480,16 @@
 			(type default)
 		)
 		(uuid "a05451b8-9641-43b6-99ae-d4369ddf92dc")
+	)
+	(wire
+		(pts
+			(xy 62.23 25.4) (xy 62.23 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8a9ee6c-9ce5-4b55-94cd-b8b9872c08fe")
 	)
 	(wire
 		(pts
@@ -2224,6 +2510,16 @@
 			(type default)
 		)
 		(uuid "c4adeec2-65f3-4cce-b58f-da385ab982ac")
+	)
+	(wire
+		(pts
+			(xy 172.72 110.49) (xy 191.77 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6c21f3c-b955-49cc-aa5c-150a2db2e67f")
 	)
 	(wire
 		(pts
@@ -2327,6 +2623,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 105.41) (xy 180.34 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f77af20f-bc47-4dbb-91bc-09a30a9280a4")
+	)
+	(wire
+		(pts
 			(xy 53.34 90.17) (xy 53.34 92.71)
 		)
 		(stroke
@@ -2345,9 +2651,9 @@
 		)
 		(uuid "2149ea69-7176-4e39-93b7-a307fed87d4c")
 	)
-	(text "12V DC power supply\nReal PSTN uses -48V, but -12V is sufficient here.\nJust bridge the -48V and -12V terminal externally"
+	(text "Real PSTN uses -48V, but -12V is sufficient here.\nJust bridge the -48V and -12V terminal externally"
 		(exclude_from_sim no)
-		(at 15.494 46.482 0)
+		(at 13.208 47.498 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2437,6 +2743,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Tip"
+		(shape input)
+		(at 181.61 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "69a71471-eceb-4108-9878-339982dc6939")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.3166 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2573,6 +2901,28 @@
 			)
 		)
 	)
+	(global_label "Ring"
+		(shape input)
+		(at 180.34 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ebc8eb9d-bb18-4b53-9eb9-e00265904f0e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.498 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Audio-in"
 		(shape input)
 		(at 46.99 156.21 0)
@@ -2597,7 +2947,7 @@
 	)
 	(symbol
 		(lib_id "power:-12V")
-		(at 76.2 22.86 0)
+		(at 74.93 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2606,7 +2956,7 @@
 		(fields_autoplaced yes)
 		(uuid "06487ccf-77e4-4816-8767-c73939088e83")
 		(property "Reference" "#PWR07"
-			(at 76.2 26.67 0)
+			(at 74.93 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2615,7 +2965,7 @@
 			)
 		)
 		(property "Value" "-12V"
-			(at 76.2 17.78 0)
+			(at 74.93 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2623,7 +2973,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 22.86 0)
+			(at 74.93 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2632,7 +2982,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 22.86 0)
+			(at 74.93 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2641,7 +2991,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 76.2 22.86 0)
+			(at 74.93 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3000,6 +3350,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 62.23 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30e081d0-f3ff-4f91-aaab-9d4a6702a3dd")
+		(property "Reference" "#PWR030"
+			(at 62.23 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 62.23 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 62.23 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22c3a3ed-1a37-40a0-bb7c-69fbd20bc773")
+		)
+		(instances
+			(project "analog-phone-interface-module"
+				(path "/58edebe9-5597-4bc2-9ef2-15f16fd76d06"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:8P8C_Shielded")
 		(at 259.08 67.31 0)
 		(mirror y)
@@ -3167,26 +3583,26 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x04")
-		(at 45.72 30.48 0)
-		(mirror y)
+		(lib_id "power:GND1")
+		(at 68.58 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4cd2c9d0-ca98-47d1-93d6-b59dd279038b")
-		(property "Reference" "J3"
-			(at 45.72 21.59 0)
+		(uuid "5ec37863-2b4b-407b-a4ad-d854d6832ce5")
+		(property "Reference" "#PWR031"
+			(at 68.58 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x04"
-			(at 45.72 24.13 0)
+		(property "Value" "GND1"
+			(at 68.58 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3194,82 +3610,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 45.72 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a936dbc5-4c79-4515-8d32-fbdebab05294")
-		)
-		(pin "1"
-			(uuid "e7105f72-b9be-4574-b31e-d05aaced620b")
-		)
-		(pin "4"
-			(uuid "ac8e906d-2bc3-4d29-a785-2358a74ded10")
-		)
-		(pin "3"
-			(uuid "845874ce-0d9c-4509-a4ad-137d518d4ca2")
-		)
-		(instances
-			(project "analog-phone-interface-module"
-				(path "/58edebe9-5597-4bc2-9ef2-15f16fd76d06"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-48V")
-		(at 60.96 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6022f96b-4947-4dfd-99b7-656f82961cdf")
-		(property "Reference" "#PWR018"
-			(at 60.96 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-48V"
-			(at 60.96 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 22.86 0)
+			(at 68.58 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3278,7 +3619,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 22.86 0)
+			(at 68.58 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 68.58 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "984111a6-4b1e-4310-bf57-3794f44e6346")
+		)
+		(instances
+			(project "analog-phone-interface-module"
+				(path "/58edebe9-5597-4bc2-9ef2-15f16fd76d06"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-48V")
+		(at 83.82 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6022f96b-4947-4dfd-99b7-656f82961cdf")
+		(property "Reference" "#PWR018"
+			(at 83.82 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-48V"
+			(at 83.82 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3287,7 +3694,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-48V\""
-			(at 60.96 22.86 0)
+			(at 83.82 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3383,6 +3790,87 @@
 			(project "analog-phone-interface-module"
 				(path "/58edebe9-5597-4bc2-9ef2-15f16fd76d06"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x06")
+		(at 45.72 30.48 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d78980a-e494-4550-b689-fd6d65a4a34b")
+		(property "Reference" "J3"
+			(at 45.72 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x06"
+			(at 45.72 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 45.72 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38099fed-a6f4-4795-87a8-a62c207f132a")
+		)
+		(pin "4"
+			(uuid "43843ec6-8f8e-4424-bee7-eaa4fd50de5f")
+		)
+		(pin "3"
+			(uuid "82cfa897-b340-4cdb-843f-485bef4a709f")
+		)
+		(pin "2"
+			(uuid "9e1923ef-717b-4ad6-9fc7-b796c7de3792")
+		)
+		(pin "6"
+			(uuid "fdb1c85b-e794-4eff-ab18-08a09d905cec")
+		)
+		(pin "5"
+			(uuid "722d256c-34b2-4a41-9b4c-d656fd48133b")
+		)
+		(instances
+			(project "analog-phone-interface-module"
+				(path "/58edebe9-5597-4bc2-9ef2-15f16fd76d06"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3665,7 +4153,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 38.1 0)
+		(at 74.93 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3674,7 +4162,7 @@
 		(fields_autoplaced yes)
 		(uuid "c65dc31d-7c03-4ef9-9bdc-9ed176829c26")
 		(property "Reference" "#PWR02"
-			(at 53.34 44.45 0)
+			(at 74.93 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3683,7 +4171,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 43.18 0)
+			(at 74.93 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3691,7 +4179,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 38.1 0)
+			(at 74.93 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3700,7 +4188,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 38.1 0)
+			(at 74.93 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3709,7 +4197,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 38.1 0)
+			(at 74.93 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3796,8 +4284,8 @@
 		)
 	)
 	(sheet
-		(at 122.555 40.005)
-		(size 52.07 24.13)
+		(at 120.015 49.53)
+		(size 52.705 34.925)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3808,7 +4296,7 @@
 		)
 		(uuid "2fbb2677-36c3-4f80-824c-b5722d76bb9b")
 		(property "Sheetname" "Phone line interface circuit"
-			(at 122.555 39.2934 0)
+			(at 120.015 48.8184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3817,7 +4305,7 @@
 			)
 		)
 		(property "Sheetfile" "phone-line-interface-circuit.kicad_sch"
-			(at 122.555 64.7196 0)
+			(at 120.015 85.0396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3826,7 +4314,7 @@
 			)
 		)
 		(pin "phone-line-ring" input
-			(at 174.625 44.45 0)
+			(at 172.72 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3836,7 +4324,7 @@
 			(uuid "0b0e62c2-ec1a-406b-9347-040ae2e51b8e")
 		)
 		(pin "phone-line-tip" input
-			(at 174.625 48.26 0)
+			(at 172.72 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3846,7 +4334,7 @@
 			(uuid "68b055a9-c02a-45cf-adf6-7b1880dc237d")
 		)
 		(pin "to-pbx-matrix" input
-			(at 122.555 44.45 180)
+			(at 120.015 53.975 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3856,7 +4344,7 @@
 			(uuid "7bf592ef-a319-4e82-a688-4e706eb58ee3")
 		)
 		(pin "off-hook-signal" input
-			(at 122.555 52.07 180)
+			(at 120.015 71.755 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3866,7 +4354,7 @@
 			(uuid "8ce06b6d-2b5b-4a72-aaf5-665e494c9a20")
 		)
 		(pin "line-enable" input
-			(at 122.555 54.61 180)
+			(at 120.015 74.295 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3876,7 +4364,7 @@
 			(uuid "434f02d9-4b13-4225-8082-a85af678e887")
 		)
 		(pin "ring-voltage-enable" input
-			(at 122.555 57.15 180)
+			(at 120.015 76.835 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3884,6 +4372,26 @@
 				(justify left)
 			)
 			(uuid "fd8def92-06d3-426a-a00f-99544ba24b9b")
+		)
+		(pin "ring-voltage-n" input
+			(at 120.015 59.055 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f66c3983-8fdc-47f8-810a-1572fffc9f94")
+		)
+		(pin "ring-voltage-p" input
+			(at 120.015 61.595 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fd8d0ace-5b6f-4180-8dc0-53b9b67b6a2f")
 		)
 		(instances
 			(project "analog-phone-interface-module"
@@ -3894,8 +4402,8 @@
 		)
 	)
 	(sheet
-		(at 122.555 123.19)
-		(size 52.07 24.13)
+		(at 119.38 98.425)
+		(size 53.34 24.13)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3906,7 +4414,7 @@
 		)
 		(uuid "7876c5e9-88f9-4dff-9e74-17f2206fb280")
 		(property "Sheetname" "Hybrid circuit"
-			(at 122.555 122.4784 0)
+			(at 119.38 97.7134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3915,7 +4423,7 @@
 			)
 		)
 		(property "Sheetfile" "hybrid_circuit.kicad_sch"
-			(at 122.555 147.9046 0)
+			(at 119.38 123.1396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3924,7 +4432,7 @@
 			)
 		)
 		(pin "tip" input
-			(at 174.625 130.81 0)
+			(at 172.72 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3934,7 +4442,7 @@
 			(uuid "b5153a49-c929-4f2c-8f7b-56e54cf76ac5")
 		)
 		(pin "ring" input
-			(at 174.625 139.7 0)
+			(at 172.72 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3944,7 +4452,7 @@
 			(uuid "623f3a1a-3546-45b1-bc68-5edd653092f0")
 		)
 		(pin "audio-in" input
-			(at 122.555 130.81 180)
+			(at 119.38 106.045 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3954,7 +4462,7 @@
 			(uuid "12d5ad2c-3e73-4d38-8160-66db97b32599")
 		)
 		(pin "audio-out" input
-			(at 122.555 139.7 180)
+			(at 119.38 114.935 180)
 			(effects
 				(font
 					(size 1.27 1.27)

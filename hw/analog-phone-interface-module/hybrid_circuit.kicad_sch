@@ -3033,28 +3033,28 @@
 			)
 		)
 		(pin "2"
-			(uuid "afe2b69f-fb0d-48fc-87cb-633cdc8daeba")
+			(uuid "afe2b69f-fb0d-48fc-87cb-633cdc8daebb")
 		)
 		(pin "1"
-			(uuid "075e65b5-0158-47b4-b927-4c468f3c1af8")
+			(uuid "075e65b5-0158-47b4-b927-4c468f3c1af9")
 		)
 		(pin "5"
-			(uuid "c8c4c5ec-d64f-40fe-b8b2-5e2a8cc148eb")
+			(uuid "c8c4c5ec-d64f-40fe-b8b2-5e2a8cc148ec")
 		)
 		(pin "8"
-			(uuid "6596f553-80fe-4d7b-ab63-4cc6b7a40f59")
+			(uuid "6596f553-80fe-4d7b-ab63-4cc6b7a40f5a")
 		)
 		(pin "3"
-			(uuid "7bd317af-ca29-4fc6-a03a-ccf4951bab5a")
+			(uuid "7bd317af-ca29-4fc6-a03a-ccf4951bab5b")
 		)
 		(pin "6"
-			(uuid "10d2b311-667e-404b-99a5-c52a94ca295c")
+			(uuid "10d2b311-667e-404b-99a5-c52a94ca295d")
 		)
 		(pin "7"
-			(uuid "2c223a48-a50d-4edf-9d52-0a66c4d9c3c6")
+			(uuid "2c223a48-a50d-4edf-9d52-0a66c4d9c3c7")
 		)
 		(pin "4"
-			(uuid "a8028bed-d0fc-409e-98e6-402ce4370ff4")
+			(uuid "a8028bed-d0fc-409e-98e6-402ce4370ff5")
 		)
 		(instances
 			(project "analog-phone-interface-module"
@@ -3259,28 +3259,28 @@
 			)
 		)
 		(pin "2"
-			(uuid "afe2b69f-fb0d-48fc-87cb-633cdc8daeba")
+			(uuid "afe2b69f-fb0d-48fc-87cb-633cdc8daebc")
 		)
 		(pin "1"
-			(uuid "075e65b5-0158-47b4-b927-4c468f3c1af8")
+			(uuid "075e65b5-0158-47b4-b927-4c468f3c1afa")
 		)
 		(pin "5"
-			(uuid "c8c4c5ec-d64f-40fe-b8b2-5e2a8cc148eb")
+			(uuid "c8c4c5ec-d64f-40fe-b8b2-5e2a8cc148ed")
 		)
 		(pin "8"
-			(uuid "6596f553-80fe-4d7b-ab63-4cc6b7a40f59")
+			(uuid "6596f553-80fe-4d7b-ab63-4cc6b7a40f5b")
 		)
 		(pin "3"
-			(uuid "7bd317af-ca29-4fc6-a03a-ccf4951bab5a")
+			(uuid "7bd317af-ca29-4fc6-a03a-ccf4951bab5c")
 		)
 		(pin "6"
-			(uuid "10d2b311-667e-404b-99a5-c52a94ca295c")
+			(uuid "10d2b311-667e-404b-99a5-c52a94ca295e")
 		)
 		(pin "7"
-			(uuid "2c223a48-a50d-4edf-9d52-0a66c4d9c3c6")
+			(uuid "2c223a48-a50d-4edf-9d52-0a66c4d9c3c8")
 		)
 		(pin "4"
-			(uuid "a8028bed-d0fc-409e-98e6-402ce4370ff4")
+			(uuid "a8028bed-d0fc-409e-98e6-402ce4370ff6")
 		)
 		(instances
 			(project "analog-phone-interface-module"
