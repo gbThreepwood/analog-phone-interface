@@ -38,7 +38,9 @@ The microcontroller will appear to the PC as a simple soundcard with one audio i
 
 #### USB Human Interface Device (HID)
 
-The dial buttons, or rotary dial on the phone can behave like a keyboard to the PC.
+The dial buttons, or rotary dial on the phone can behave like a numeric keypad to the PC.
+
+The same goes for the on/off-hook signal, this can be used to mute or unmute the microphone. Although the on hook condition will also physically disconnect the microphone, a mute signal will indicate this condition visually to the other participants in most video call software (like Jitsy, Zoom, or god forbid Teams).
 
 #### Communication Device Class (CDC)
 
